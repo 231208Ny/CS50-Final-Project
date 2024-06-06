@@ -12,7 +12,7 @@ A user can cast his vote by visiting this web platform. For web server scripting
 4. Make sure email sending is allowed (while development process sending email every time is not a good idea because API allows us to send email only for limited no. of times.).
 
 
-​		For this make sure send_otp() method in views.py file looks like this:
+​		For this make sure send_otp() method in views.py file looks like this: https://github.com/231208Ny/CS50-Final-Project/blob/b0432c0104a9252adf0c15c8684b925a13f834f1/views.py
 
 python
 ...
@@ -40,4 +40,4 @@ send_email_private_key(request.session['email-id'], private_key)
 
 - <a name="EmailCredentials">Why and How to add Email credentials:</a>
 
-  Youtube: https://www.youtube.com/watch?v=JRCJ6RtE3xU 
+  Youtube:  https://youtu.be/QPlTaw70LFo  
