@@ -16,4 +16,28 @@ A user can cast his vote by visiting this web platform. For web server scripting
 
 python
 ...
-[success, result] = send_email_…
+[success, result] = send_email_otp(email_input)
+# [success, result] = [True, '0']
+...
+
+
+​		and get_parties() method in same file (views.py) looks like this:
+
+python
+...
+send_email_private_key(request.session['email-id'], private_key)
+# print(private_key)
+...
+
+
+5. Locate manage.py file and run python manage.py runserver in the same directory.
+
+6. Locate the URL provided in the terminal and access that. by default it is .
+
+
+
+## References
+
+- <a name="EmailCredentials">Why and How to add Email credentials:</a>
+
+  Youtube: https://www.youtube.com/watch?v=JRCJ6RtE3xU 
